@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDipSize">
+        <ignore path="src/main/res/mipmap-hdpi/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-mdpi/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/tic_toe.png" />
+    </issue>
+    <issue id="IconDuplicatesConfig">
+        <ignore path="src/main/res/mipmap-anydpi-v26/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-hdpi/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-mdpi/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/tic_toe.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/tic_toe.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/draw.png" />
+        <ignore path="src/main/res/drawable/tictactoe.png" />
+        <ignore path="src/main/res/drawable/tictactoe2.png" />
+        <ignore path="src/main/res/drawable/win.png" />
+    </issue>
+</lint>

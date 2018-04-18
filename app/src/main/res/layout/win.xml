@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#2962ff"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context="com.example.dell.tictoe.MainActivity"
+    tools:ignore="Overdraw">
+
+        <TextView
+            android:id="@+id/winnerName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="Adela"
+            android:contentDescription="winning troph"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/winnerName"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:contentDescription="This image is shown there is a winner"
+            android:scaleType="centerInside"
+            android:src="@drawable/win"
+            tools:ignore="HardcodedText">
+
+        </ImageView>
+</RelativeLayout>
+

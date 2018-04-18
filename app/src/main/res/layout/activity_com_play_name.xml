@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018. This app is work of great ideas and reference to other online resources. If you will have to make use of any part of the content please go on but don't hesitate to reference me @github.com/adelaadeoye
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.dell.tictoe.playersName">
+
+
+    <EditText
+        android:id="@+id/playerOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player one"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player One Select Move Type"
+        android:textColor="@color/colorAccent"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/xMove"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:layout_margin="5dp"
+            android:checked="true"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/oMove"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Please select difficulty level"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/easy"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:layout_margin="5dp"
+            android:checked="true"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <RadioButton
+            android:id="@+id/expert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expert"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </RadioGroup>
+
+
+</LinearLayout>

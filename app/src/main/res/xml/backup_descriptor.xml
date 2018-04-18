@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. This app is work of great ideas and reference to other online resources. If you will have to make use of any part of the content please go on but don't hesitate to reference me @github.com/adelaadeoye
+  -->
+
+<full-backup-content>
+    <!-- Exclude specific shared preferences that contain GCM registration Id -->
+</full-backup-content>

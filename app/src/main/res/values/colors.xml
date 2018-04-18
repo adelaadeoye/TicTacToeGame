@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#2962ff"-->
+    <!--android:paddingEnd="5dp"-->
+    <!--android:paddingStart="5dp"-->
+    <!--android:paddingTop="10dp"-->
+    <!--tools:context="com.example.dell.tictoe.MainActivity">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/name"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:background="@drawable/border"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/tic_toe1"-->
+    <!--android:textColor="#fff" />-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:paddingStart="5dp"-->
+    <!--android:paddingTop="60dp">-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/play"&ndash;&gt;-->
+    <!--&lt;!&ndash;style="@style/optionButton2"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="180dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="Select Game"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textSize="20sp"&ndash;&gt;-->
+    <!--&lt;!&ndash;tools:targetApi="lollipop" />&ndash;&gt;-->
+
+    <!--<Button-->
+    <!--android:id="@+id/single3"-->
+    <!--style="@style/optionButton"-->
+    <!--android:layout_width="180dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/play"-->
+    <!--android:text="Single Player 3x3"-->
+    <!--tools:targetApi="lollipop" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/double3"-->
+    <!--style="@style/optionButton"-->
+    <!--android:layout_width="180dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/single3"-->
+    <!--android:text="Double Player 3x3"-->
+    <!--tools:targetApi="lollipop" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/single5"-->
+    <!--style="@style/optionButton"-->
+    <!--android:layout_width="180dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/double3"-->
+    <!--android:text="Single Player 5x5"-->
+    <!--tools:targetApi="lollipop" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/double5"-->
+    <!--style="@style/optionButton"-->
+    <!--android:layout_width="180dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/single5"-->
+    <!--android:text="Double Player 5x5"-->
+    <!--tools:targetApi="lollipop" />-->
+
+    <!--</RelativeLayout>-->
+
+
+    <!--</RelativeLayout>-->

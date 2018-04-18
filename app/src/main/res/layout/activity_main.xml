@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. This app is work of great ideas and reference to other online resources. If you will have to make use of any part of the content please go on but don't hesitate to reference me @github.com/adelaadeoye
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2962ff"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.dell.tictoe.MainActivity"
+    tools:ignore="Overdraw">
+
+    <ImageView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/border"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tictactoe2"
+        android:contentDescription="brand design "
+        android:textColor="#fff"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:layout_width="3dp"
+        android:layout_below="@id/name"
+        android:layout_centerInParent="true"
+        android:layout_height="70dp"
+        android:background="#fff"
+        android:id="@+id/divider" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/divider"
+        android:layout_marginTop="-5dp"
+        >
+        <Button
+            android:id="@+id/single3"
+            style="@style/optionButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Single Player 3x3"
+            tools:targetApi="lollipop"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/double3"
+            style="@style/optionButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/single3"
+            android:layout_below="@+id/single3"
+            android:text="Double Player 3x3"
+            tools:targetApi="lollipop"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/single5"
+            style="@style/optionButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/double3"
+            android:text="Single Player 5x5"
+            tools:targetApi="lollipop"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/double5"
+            style="@style/optionButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/single5"
+            android:text="Double Player 5x5"
+            tools:targetApi="lollipop"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
